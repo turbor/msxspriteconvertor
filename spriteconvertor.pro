@@ -10,13 +10,16 @@ INCLUDEPATH += .
 
 # Input
 HEADERS += GE5Widget.hh \
-           mainwindow.hh \
            Screen4Widget.hh \
            spriteGrid.hh \
-           spritePaternView.hh
+           spritePaternView.hh \
+           mainwindow.h
 SOURCES += GE5Widget.cpp \
            main.cpp \
            mainwindow.cpp \
            Screen4Widget.cpp \
            spriteGrid.cpp \
            spritePaternView.cpp
+
+FORMS += \
+    mainwindow.ui
